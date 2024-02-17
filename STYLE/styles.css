@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+:root{
+    --colorM: rgba(168, 59, 163, 0.582); ;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-shadow: 0.01em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+    color: #3f3c3d;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* font-family: "Roboto Mono", monospace; */
+    font-family: 'Audiowide', sans-serif;
+}
+
+#titleIndex {
+    margin-top: 0.8em;
+}
+
+.title-top{
+    text-align: center;
+    font-size: 8em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: var(--colorM);
+    
+}
+
+#titleTop {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+  
+.title {
+    margin-top: 1.5em;
+    font-size: 3em;
+    
+}
+
+
+
+.button-start,
+.button-about {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0.4em;
+    margin-top: 5em;
+    font-size: 1.4em;
+    border-radius: 10PX;
+    padding: 0.5em 1em;
+    
+}
+
+.button-play, 
+.button-back {
+    display: inline-block;
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0.4em;
+    margin-top: 5em;
+    font-size: 1.4em;
+    border-radius: 10PX;
+    padding: 0.5em 1em;
+    
+
+}
+
+.button-start:hover,
+.button-play:hover,
+.button-about:hover,
+.button-back:hover {
+    color: var(--colorM);
+    box-shadow: 0 0 1px 1px rgba(17, 1, 43, 0.158);
+    background-color: #33333363;
+    transition: .5S;
+
+}
+  
+
+.button-back {
+    text-align: center;
+    width: 9em;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    padding: 0em 0.5em;
+    border-radius: 0.5em;
+}
+.container-about, .container-home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-about {
+    text-align: center;
+    margin-top: 0em;
+    color: var(--colorM);
+}
+
+.about {
+    font-size: 1em;
+    margin: 7em;
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+    text-align: start;
+    color: rgb(245, 245, 245);
+
+    background-color: #02151e72;
+    border-radius: 1em;
+    padding: 0.5em 4em 1em 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.text {
+    margin-top: 1em;
+}
+
+strong {
+    color: var(--colorM);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.levels {
+    margin-bottom: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.level {
+    padding: 0.7em 0.2em;
+    margin: 0.5em;
+    color: var(--colorM);
+    width: 9em;
+    border-radius: 0.9em;
+}
+  
+.levels:hover {
+    cursor: pointer;
+}
+  
+.level:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.726);
+    transition: .5s;
+}
+#selectedLevelText{
+
+    color: #3f3c3d;
+    font-size: 20px;
+    font-weight: 800;
+   
+}
+
+#selectColorsButtons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+.button-play-select-colors,
+.button-back-select-colors {
+  width: 15em;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.842);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 2em 0.4em;
+  font-size: 1.4em;
+  border-radius: 0.8em;
+  padding: 0.5em 1em;
+}
+
+.button-play-select-colors:hover,
+.button-back-select-colors:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.726);
+    transition: .5s;
+
+}
+
+.container-level{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+    background: #3f373a93;
+    color:white;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-play-select-colors{
+    color: #35adb1;
+    font-weight: 600;
+}
+
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-options-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+
+
+}
+
+.color-picker {
+    background-color: rgb(0, 0, 0);
+    width: 2em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.color-picker:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .4;
+
+
+}
+
+.color-circle {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.winner_txt{
+    font-size: 60px;
+    font-family: 'Audiowide', sans-serif;
+    color: var(--colorM);
+}
+img{
+    height: 60vh;
+    width: auto;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+}
+
+.btn{
+    padding: 20px;
+    background: #3f3c3d8f;
+    border: none;
+    border-radius: 16px;
+    padding: 1em 1em;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: var(--colorM);
+    font-weight: 600;
+
+    transition: .2s;
+}
+
+
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0em;
+    font-size: 1em;
+  }
+  @media only screen and (max-width: 990px) {
+    html {
+      font-size: 0.7em;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    html {
+      font-size: 0.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+    html {
+      font-size: 0.33em;
+    }
+  }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../STYLE/game.css" />
+    <link rel="stylesheet" href="../STYLE/styles.css" />
+    <title>MasterMind</title>
+</head>
+
+<body>
+
+    <div class="row title-top" id="welcomeMessage">Hola</div>
+    <div class="container-fluid conatiner-main">
+        <div class="box-main">
+            <div class="row back-row">
+                <a href="../index.html" class="button-back">MENU PRINCIPAL</a>
+            </div>
+            <div class="board-game">
+                <div class="box-score">
+                    <div class="row" id="scoreMessage">Mastermind</div>
+                    <img src="https://i.pinimg.com/originals/27/75/8f/27758f8b1b09099bec30da903d0763e8.png" class="puzzle" alt="">
+                    <div class="row try"></div>
+                  
+                </div>
+                <div class="box-game">
+                    <div class="row tokens-winner" id="winnerTokens">
+                        <div class="slot-win"></div>
+                        <div class="slot-win"></div>
+                        <div class="slot-win"></div>
+                        <div class="slot-win"></div>
+                    </div>
+                    <div class="row tokens-row" id="fifthShot">
+                        <div class="slot-player token-1"></div>
+                        <div class="slot-player token-2"></div>
+                        <div class="slot-player token-3"></div>
+                        <div class="slot-player token-4"></div>
+                    </div>
+                    <div class="row tokens-row" id="fourthShot">
+                        <div class="slot-player token-1"></div>
+                        <div class="slot-player token-2"></div>
+                        <div class="slot-player token-3"></div>
+                        <div class="slot-player token-4"></div>
+                    </div>
+                    <div class="row tokens-row" id="thirdShot">
+                        <div class="slot-player token-1"></div>
+                        <div class="slot-player token-2"></div>
+                        <div class="slot-player token-3"></div>
+                        <div class="slot-player token-4"></div>
+                    </div>
+                    <div class="row tokens-row" id="secondShot">
+                        <div class="slot-player token-1"></div>
+                        <div class="slot-player token-2"></div>
+                        <div class="slot-player token-3"></div>
+                        <div class="slot-player token-4"></div>
+                    </div>
+                    <div class="row tokens-row" id="firstShot">
+                        <div class="slot-player token-1" id="token1"></div>
+                        <div class="slot-player token-2"></div>
+                        <div class="slot-player token-3"></div>
+                        <div class="slot-player token-4"></div>
+                    </div>
+                </div>
+                <div class="box-check">
+                    <div class="row check-row" id="fifthCheck">
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                    </div>
+                    <div class="row check-row" id="fourthCheck">
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                    </div>
+                    <div class="row check-row" id="thirdCheck">
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                    </div>
+                    <div class="row check-row" id="secondCheck">
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                    </div>
+                    <div class="row check-row" id="firstCheck">
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                        <div class="slot-check check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-selection">
+                <div class="messageSelectionColors">➪</div>
+                <div class="row buttons-row colors-selection" id="buttons">
+                    <div class="slot-selection box" id="userColorSelectionContainer1"></div>
+                    <div class="slot-selection box" id="userColorSelectionContainer2"></div>
+                    <div class="slot-selection box" id="userColorSelectionContainer3"></div>
+                    <div class="slot-selection box" id="userColorSelectionContainer4"></div>
+                    <div class="button-remove" id="buttonRemove">✖</div>
+                    <div class="button-check" id="buttonCheck">✔</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JavaScript/beginner.js"></script>
+</body>
+
+</html>
