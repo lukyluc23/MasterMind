@@ -1,4 +1,4 @@
-# Mastermind 🕹️🕹️
+# Mastermind 🧩🧩🧩
 ***
 ***
 <p>
@@ -16,8 +16,22 @@ Este es un proyecto web llamado Mastermind, un juego donde el jugador debe adivi
 - CSS:  Aplicado para dar estilo y diseño a todas las pages
 - JavaScript ES6: Utilizado para la parte logica y poder controlar las interacciones y las funciones de cada elemento que lo requiera.
 
-## Reglas y Funcionamiento del Juego
 ***
+🎮🎮🎮🎮🎮🎮🎮
+<p>
+   <div align="center">
+      <img src="./img/M2.png" style="max-width: 100%;" width="500">
+   </div> 
+   <div align="center">
+   <h3>Se desarrollo la aplicacion utilizando el tipo MPA, usando las funcionalidades API HTML5</h3>
+   </div>     
+</p>
+🎮🎮🎮🎮🎮🎮🎮
+***
+
+## Reglas y Funcionamiento del Juego 🎲
+***
+![alt text](image.png)
 
 En Mastermind, el objetivo es adivinar la combinación correcta de colores. Hay tres niveles de dificultad:
 
@@ -35,9 +49,5 @@ En Mastermind, el objetivo es adivinar la combinación correcta de colores. Hay 
 - **Comprobación de Suposiciones**: Después de cada intento, el jugador puede comprobar su suposición. El juego mostrará cuántos colores se han colocado correctamente (marcados con bolas moradas) y cuántos colores se han adivinado correctamente pero colocados en el lugar equivocado (marcados con bolas blancas).
 
 ¡Buena suerte! Diviértete jugando Mastermind.
-# MasterMind---Game
-# MasterMind---Game
-# MasterMind
-# MasterMind
-# MasterMind
+
 # MasterMind
